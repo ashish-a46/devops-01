@@ -2,7 +2,7 @@ from django.db import models
 
 
 # Create your models here.
-class To(models.Model):
+class Todoo(models.Model):
     title = models.CharField(max_length=100)
     description = models.TextField(blank=True)
     completed = models.BooleanField(default=False)
